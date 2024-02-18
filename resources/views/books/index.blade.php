@@ -40,7 +40,7 @@
                             <a href="{{ route('books.show', $book) }}" class="book-title">{{ $book->title }}</a>
                             <span class="book-author">by {{ $book->author }}</span>
                         </div>
-                        <div>
+                        <div class="book-numbers">
                             <div class="book-rating">
                                 {{ number_format($book->reviews_avg_rating, 1) }}
                             </div>
