@@ -40,6 +40,10 @@
             @apply block text-slate-600;
         }
 
+        .book-numbers {
+            @apply w-1/6;
+        }
+
         .book-rating {
             @apply text-sm font-medium text-slate-700;
         }
